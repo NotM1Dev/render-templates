@@ -1,0 +1,16 @@
+# Dependencies
+node_modules
+
+# Build Output
+dist
+
+# Environment Variables
+**/*.env*
+!**/.env.example
+
+# Logs
+**/log*
+**/*.log*
+
+# Miscellaneous
+**/.DS_Store
