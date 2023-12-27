@@ -1,14 +1,17 @@
 {
   "name": "render-templates",
   "description": "Zero-dependency string template rendering.",
-  "version": "1.0.0",
+  "version": "1.0.2",
+  "main": "./dist/index.js",
   "exports": {
     ".": {
       "import": "./dist/index.mjs",
       "require": "./dist/index.js",
+      "default": "./dist/index.js",
       "types": {
         "import": "./dist/index.d.mts",
-        "require": "./dist/index.d.ts"
+        "require": "./dist/index.d.ts",
+        "default": "./dist/index.d.ts"
       }
     }
   },
